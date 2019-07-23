@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excercise", "Excercise\Excercise.csproj", "{2A6ECFC4-0439-481F-B85B-A775C3AFE0BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "Angular\Angular.csproj", "{E5A54D25-756F-4E9E-907D-1490920ABC6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2A6ECFC4-0439-481F-B85B-A775C3AFE0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6ECFC4-0439-481F-B85B-A775C3AFE0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6ECFC4-0439-481F-B85B-A775C3AFE0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A54D25-756F-4E9E-907D-1490920ABC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A54D25-756F-4E9E-907D-1490920ABC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A54D25-756F-4E9E-907D-1490920ABC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A54D25-756F-4E9E-907D-1490920ABC6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

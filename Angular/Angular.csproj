@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5A54D25-756F-4E9E-907D-1490920ABC6A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Angular</RootNamespace>
+    <AssemblyName>Angular</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="e2e\protractor.conf.js" />
+    <Content Include="karma.conf.js" />
+    <Content Include="src\app\components\app\app.component.html" />
+    <Content Include="src\app\components\home\home.component.html" />
+    <Content Include="src\app\components\student-details\student-details.component.html" />
+    <Content Include="src\app\components\spinner\spinner.component.html" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="angular.json" />
+    <None Include="browserslist" />
+    <None Include="e2e\tsconfig.json" />
+    <None Include="obj\Debug\Angular.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="package-lock.json" />
+    <None Include="package.json" />
+    <None Include="README.md" />
+    <None Include="src\app\components\app\app.component.scss" />
+    <None Include="src\app\components\home\home.component.scss" />
+    <None Include="src\app\components\student-details\student-details.component.scss" />
+    <None Include="src\app\components\spinner\spinner.component.scss" />
+    <None Include="src\assets\.gitkeep" />
+    <None Include="src\styles.scss" />
+    <None Include="tsconfig.app.json" />
+    <None Include="tsconfig.json" />
+    <None Include="tsconfig.spec.json" />
+    <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\components\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\components\home\home.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\home\home.component.ts" />
+    <TypeScriptCompile Include="src\app\components\student-details\student-details.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\student-details\student-details.component.ts" />
+    <TypeScriptCompile Include="src\app\components\spinner\spinner.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\spinner\spinner.component.ts" />
+    <TypeScriptCompile Include="src\app\models\id-name.ts" />
+    <TypeScriptCompile Include="src\app\models\student.ts" />
+    <TypeScriptCompile Include="src\app\models\web-result.ts" />
+    <TypeScriptCompile Include="src\app\pipes\gender.pipe.ts" />
+    <TypeScriptCompile Include="src\app\services\api.service.ts" />
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
