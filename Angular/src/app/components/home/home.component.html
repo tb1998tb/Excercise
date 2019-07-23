@@ -17,7 +17,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let student of api.students">
+        <tr   appHover *ngFor="let student of api.students">
           <td>
             <div class="actions-wrapper">
                 <a [routerLink]="'/student-details/'+student.Id" class="btn btn-sm btn-outline-secondary">עריכה</a>

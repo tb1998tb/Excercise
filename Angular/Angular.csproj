@@ -91,6 +91,8 @@
     <TypeScriptCompile Include="src\app\components\student-details\student-details.component.ts" />
     <TypeScriptCompile Include="src\app\components\spinner\spinner.component.spec.ts" />
     <TypeScriptCompile Include="src\app\components\spinner\spinner.component.ts" />
+    <TypeScriptCompile Include="src\app\directives\hover.directive.spec.ts" />
+    <TypeScriptCompile Include="src\app\directives\hover.directive.ts" />
     <TypeScriptCompile Include="src\app\models\id-name.ts" />
     <TypeScriptCompile Include="src\app\models\student.ts" />
     <TypeScriptCompile Include="src\app\models\web-result.ts" />

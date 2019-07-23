@@ -13,6 +13,7 @@ import { NgDatepickerModule } from 'ng2-datepicker';
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
+import { HoverDirective } from './directives/hover.directive';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { MatInputModule } from '@angular/material/input';
     SpinnerComponent,
     HomeComponent,
     StudentDetailsComponent,
+    HoverDirective,
   ],
   imports: [
     MatInputModule,
